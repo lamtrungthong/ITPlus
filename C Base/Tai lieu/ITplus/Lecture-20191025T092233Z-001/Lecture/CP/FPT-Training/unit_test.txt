@@ -1,0 +1,70 @@
+Q. 1: An input field takes the year of birth between 1900 and 2004
+The boundary values for testing this field are
+A. 0,1900,2004,2005
+B. 1900, 2004
+C. 1899,1900,2004,2005
+D. 1899, 1900, 1901,2003,2004,2005
+Q. 2: One of the fields on a form contains a text box which accepts numeric values in the range of 18 to 25. Identify the invalid Equivalance class
+A. 17
+B. 19
+C. 24
+D. 21
+Q. 3: In a Examination a candidate has to score minimum of 24 marks inorder to clear the exam. The maximum that he can score is 40 marks. Identify the Valid Equivalance values if the student clears the exam.
+A. 22,23,26
+B. 21,39,40
+C. 29,30,31
+D. 0,15,22
+Q. 4: One of the fields on a form contains a text box which accepts alpha numeric values. Identify the Valid Equivalence class
+A. BOOK
+B. Book
+C. Boo01k
+D. book
+Q. 5: The Switch is switched off once the temperature falls below 18 and then it is turned on when the temperature is more than 21. When the temperature is more than 21. Identify the Equivalance values which belong to the same class.
+A. 12,16,22
+B. 24,27,17
+C. 22,23,24
+D. 14,15,19
+
+Q. 6: ‘X’ has given a data on a person age, which should be between 1 to 99. Using BVA which is the appropriate one 
+A. 0,1,2,99 
+B. 1, 99, 100, 98 
+C. 0, 1, 99, 100 
+D. –1, 0, 1, 99
+Q. 7: A wholesaler sells printer cartridges. The minimum order quantity is 5. There is a 20% discount for orders of 100 or more printer cartridges. You have been asked to prepare test cases using various values for the number of printer cartridges ordered. Which of the following groups contain three test inputs that would be generated using Boundary Value Analysis? 
+A. 5, 6, 20 
+B. 4, 5, 80
+C. 4, 5, 99
+D. 1, 20, 100
+Q. 8: A thermometer measures temperature in whole degrees only. If the temperature falls below 18 degrees, the heating is switched off. It is switched on again when the temperature reaches 21 degrees. What are the best values in degrees to cover all equivalence partitions?
+A. 15,19 and 25. 
+B. 17,18 and19. 
+C. 18, 20 and22. 
+D. 16, 26 and 32.
+Q. 9: Assume postal rates for 'light letters' are:
+$0.25 up to 10 grams;
+$0.35 up to 50 grams;
+$0.45 up to 75 grams;
+$0.55 up to 100 grams.
+Which test inputs (in grams) would be selected using boundary value analysis?
+A. 0, 9,19, 49, 50, 74, 75, 99,100
+B. 10, 50, 75,100, 250, 1000
+C. 0, 1,10,11, 50, 51, 75, 76,100,101
+D. 25, 26, 35, 36, 45, 46, 55, 56
+Q. 10: In a system designed to work out the tax to be paid:
+An employee has £4000 of salary tax free.
+The next £1500 is taxed at 10%.
+The next £28000 after that is taxed at 22%.
+Any further amount is taxed at 40%.
+To the nearest whole pound, which of these is a valid Boundary Value Analysis test case?
+A. £28000.
+B. £33501.
+C. £32001.
+D. £1500.
+Q. 11: Given the following specification, which of the following values for age are in
+the SAME equivalence partition?
+If you are less than 18, you are too young to be insured. Between 18 and 30 inclusive, you
+will receive a 20% discount. Anyone over 30 is not eligible for a discount.
+A. 17, 18, 19.
+B. 29, 30, 31.
+C. 18, 29, 30.
+D. 17, 29, 31.
