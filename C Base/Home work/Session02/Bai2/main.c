@@ -10,13 +10,25 @@ int main(int argc, char *argv[]) {
 	printf("Nhap h = ");
 	scanf("%d", &h);
 	
+//	for( i =0; i < h ; i++){
+//		for( j =0; j < 2*h; j++)
+//			if(j >= (h-1-i) && j <= (h-1+i))
+//				printf(" * ");
+//			else
+//				printf("   ");
+//		printf("\n");
+//	}
+
+//in tam giac nguoc
+	int n = 2*h;
 	for( i =0; i < h ; i++){
-		for( j =0; j < 2*h; j++)
-			if(j >= (h-1-i) && j <= (h-1+i))
+		for( j =0; j < n; j++)
+			if(j <= ((n-1)-1-i) && j >= i )
 				printf(" * ");
 			else
 				printf("   ");
 		printf("\n");
 	}
+	
 	return 0;
 }
